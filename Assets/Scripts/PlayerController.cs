@@ -36,19 +36,34 @@ public class PlayerController : MonoBehaviour
 
     private void PlayerMove() // code to move player
     {
-        transform.position += new Vector3(0.001f * thrust, 0, 0);
+        //transform.position += new Vector3(0.001f * thrust, 0, 0);
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)) // if space or mouse
         {
             rb.AddForce(new Vector3(jumpForce * Mathf.Cos(thetaRad), jumpForce * Mathf.Sin(thetaRad), 0), ForceMode2D.Impulse);
         }
+
+        // cap rotation speed 
+        //Debug.Log(rb.angularVelocity);
+        if (rb.angularVelocity >= 300)
+        {
+            rb.angularVelocity = 300;
+        }
+        
+        if(rb.angularVelocity <= -300)
+        {
+            rb.angularVelocity = -300;
+        }
+
+        // cap velocity
+        Debug.Log(rb.velocity.magnitude);
     }
 
     private void ChangeRotation() // rotates pointer
     {
-        
+        /*
         if (isTouchingGround == true) // if touching ground
         {
-            pointer.SetActive(true);
+            //pointer.SetActive(true);
             if (theta < 0 || theta > 90) // if on ground (0 ~ 90)
             {
                 rotSpeed = -rotSpeed;
@@ -57,7 +72,7 @@ public class PlayerController : MonoBehaviour
         
         if (isTouchingCeiling == true) // if touching ceiling
         {
-            pointer.SetActive(true);
+            //pointer.SetActive(true);
             if (theta > 0 || theta < -90) // if on ceiling (-90 ~ 0)
             {
                 rotSpeed = -rotSpeed;
@@ -65,9 +80,9 @@ public class PlayerController : MonoBehaviour
         }
         if (isTouchingGround == false || isTouchingCeiling == false) // if in mid-air
         {
-            pointer.SetActive(false);
+            //pointer.SetActive(false);
         }
-        
+        */
         
         direction.RotateAround(this.transform.position, new Vector3(0, 0, -1), rotSpeed * Time.deltaTime);
     }
