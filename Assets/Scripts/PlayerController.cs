@@ -55,7 +55,7 @@ public class PlayerController : MonoBehaviour
         }
 
         // cap velocity
-        Debug.Log(rb.velocity.magnitude);
+        //Debug.Log(rb.velocity.magnitude);
     }
 
     private void ChangeRotation() // rotates pointer
