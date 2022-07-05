@@ -20,7 +20,7 @@ public class HomingMissile : MonoBehaviour
 		target = GameObject.FindGameObjectWithTag("Player").transform;
 		//deathMenu = GameObject.Find("DeathMenu");
 		rb = GetComponent<Rigidbody2D>();
-		Destroy(gameObject, 25); // missile gets destroyed after 25 seconds
+		Destroy(gameObject, 10); // missile gets destroyed after 10 seconds
 
 		Physics2D.IgnoreLayerCollision(7, 6); // missile ignores ground
 		Physics2D.IgnoreLayerCollision(7, 8); // missile ignores all enemies

@@ -20676,7 +20676,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6459565238485008294, guid: ae29ef3c700537d41b517cda4236e971, type: 3}
       propertyPath: interval
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6459565239524449746, guid: ae29ef3c700537d41b517cda4236e971, type: 3}
       propertyPath: m_RootOrder
@@ -30421,7 +30421,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6459565238485008294, guid: ae29ef3c700537d41b517cda4236e971, type: 3}
       propertyPath: interval
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6459565239524449746, guid: ae29ef3c700537d41b517cda4236e971, type: 3}
       propertyPath: m_RootOrder
@@ -56889,7 +56889,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6459565238485008294, guid: ae29ef3c700537d41b517cda4236e971, type: 3}
       propertyPath: interval
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6459565239524449746, guid: ae29ef3c700537d41b517cda4236e971, type: 3}
       propertyPath: m_RootOrder
@@ -57956,7 +57956,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6459565238485008294, guid: ae29ef3c700537d41b517cda4236e971, type: 3}
       propertyPath: interval
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6459565239524449746, guid: ae29ef3c700537d41b517cda4236e971, type: 3}
       propertyPath: m_RootOrder
@@ -60009,7 +60009,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: The Missile generator has a danger zone which will start blinking once
-    you enter the zone. Inside the zone, a homing missile is launched every 3 seconds.
+    you enter the zone. Inside the zone, a homing missile is launched every 7 seconds.
     Destroy these generators by making the player collide with them at a fast speed.
     Win the game by destroying all 6 of these.
   m_isRightToLeft: 0
@@ -60518,7 +60518,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6459565238485008294, guid: ae29ef3c700537d41b517cda4236e971, type: 3}
       propertyPath: interval
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6459565239524449746, guid: ae29ef3c700537d41b517cda4236e971, type: 3}
       propertyPath: m_RootOrder
@@ -70969,7 +70969,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6459565238485008294, guid: ae29ef3c700537d41b517cda4236e971, type: 3}
       propertyPath: interval
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6459565239524449746, guid: ae29ef3c700537d41b517cda4236e971, type: 3}
       propertyPath: m_RootOrder
