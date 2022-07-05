@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - Ceiling
+  - Missile
   layers:
   - Default
   - TransparentFX
@@ -14,8 +15,8 @@ TagManager:
   - Water
   - UI
   - Ground
-  - 
-  - 
+  - Missile
+  - Enemy
   - 
   - 
   - 
@@ -42,4 +43,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 740294357
     locked: 0
